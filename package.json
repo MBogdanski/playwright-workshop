@@ -1,0 +1,17 @@
+{
+  "name": "playwright-workshops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "my-ex": "npx playwright test tests/my-ex.spec.ts",
+    "practice": "npx playwright test tests/practice-form.spec.ts --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.2"
+  }
+}

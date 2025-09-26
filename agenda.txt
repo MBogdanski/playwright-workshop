@@ -1,0 +1,15 @@
+Agenda
+
+1. Tworzymy nowy projekt
+2. Przegląd narzędzi i pluginów
+3. Playwright -> czym jest i podstawy użycia
+4. Elementy testów i interakcje z web elementami/locatorami
+5. Praktyka automatyzacji
+6. Page Object Pattern/Model
+7*. Codegen
+
+Zasady
+1. Nie boimy się zadawać pytań
+2. Dużo praktykujemy, nie unikamy kodzenia :) 
+3. W miarę możliwości wspieram ja i wy siebie nawzajem
+4. Jesteśmy elastyczni -> możemy dopasować szkolenie pod konkretne potrzeby
