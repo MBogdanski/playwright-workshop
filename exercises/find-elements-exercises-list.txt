@@ -1,0 +1,12 @@
+1. Znajdź pole tekstowe "Name" za pomocą selektora CSS i sprawdź, że jest widoczne.
+2. Znajdź pole tekstowe "Email" za pomocą selektora XPath i sprawdź, że jest widoczne.
+3. Znajdź checkbox "Car" za pomocą selektora CSS i sprawdź, że jest widoczny.
+4. Znajdź przycisk submit za pomocą getByRole('button', { name: /submit/i }) i sprawdź, że jest widoczny.
+5. Znajdź pierwszy link prowadzący do strony głównej za pomocą selektora CSS i sprawdź, że jest widoczny.
+6. Znajdź pole tekstowe "Name" za pomocą getByLabelText('Name') i sprawdź, że jest widoczne.
+7. Znajdź pole tekstowe "Email" za pomocą getByPlaceholderText('Email') i sprawdź, że jest widoczne.
+8. Znajdź select z markami samochodów za pomocą selektora CSS i sprawdź, że jest widoczny.
+9. Znajdź pole tekstowe "Name" za pomocą getByTestId('et_pb_contact_name_0') i sprawdź, że jest widoczne.
+10. Znajdź checkbox "Bike" za pomocą selektora XPath i sprawdź, że jest widoczny.
+11. Znajdź link "Click this link" za pomocą getByRole('link', { name: /click this link/i }) i sprawdź, że jest widoczny.
+12. Znajdź pole tekstowe "Email" za pomocą getByRole('textbox', { name: 'Email' }) i sprawdź, że jest widoczne.

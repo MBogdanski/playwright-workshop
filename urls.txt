@@ -1,0 +1,7 @@
+Dokumentacja
+https://playwright.dev/docs/intro
+
+Strony do praktyki:
+https://demoqa.com/automation-practice-form
+https://ultimateqa.com/simple-html-elements-for-automation/
+https://www.saucedemo.com/

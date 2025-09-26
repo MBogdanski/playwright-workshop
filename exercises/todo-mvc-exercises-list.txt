@@ -1,0 +1,21 @@
+
+1. Dodaj jedno nowe zadanie, np. „Buy milk”. Zweryfikuj, że pojawiło się na liście.
+2. Dodaj kilka (np. 3) zadania: „Task 1”, „Task 2”, „Task 3”. Sprawdź, że liczba elementów w liście to 3.
+3. Dodaj zadanie z użyciem białych znaków z przodu i z tyłu (np. " Trim spaces "). Sprawdź, że w liście faktycznie zapisano je bez nadmiarowych spacji (czyli jako "Trim spaces").
+4. Spróbuj dodać zadanie z pustym tekstem (np. tylko naciśnij Enter bez wpisywania). Sprawdź, że nie pojawia się nowy element (nie dodano zadania).
+5. Dla zadania „Buy milk”, kliknij checkbox, by oznaczyć je jako ukończone. Sprawdź, że ma klasę CSS completed (lub styl, który to odzwierciedla).
+6. Dla dodanych zadań „Task 1”, „Task 2”, oznacz „Task 2” jako ukończone, pozostaw pozostałe nieukończone. Zweryfikuj, że tylko „Task 2” ma stan skończony.
+7. Odznacz wcześniej ukończone zadanie („Task 2”) i sprawdź, że jego klasa / styl z „completed” zniknęła.
+8. Kliknij element „Toggle All” (jeśli dostępny, lub odpowiednie pole wyboru) — w wielu wariantach TodoMVC to przycisk, który zaznacza wszystkie zadania jako ukończone lub odznacza wszystkie. Sprawdź, że wszystkie zadania mają stan ukończony / wszystkie nieukończone zależnie od stanu toggla.
+9. Znajdź zadanie „Task 1” i podwójnie kliknij jego etykietę, by wejść w tryb edycji. Wpisz nowy tekst (np. „Task 1 updated”) i potwierdź (Enter). Sprawdź, że tekst się zmienił.
+10. Podczas edycji zadania usuń cały tekst (np. zostaw pusty) i naciśnij Enter lub wyjdź (Escape) — w niektórych implementacjach to usuwa zadanie, w innych zostawia oryginał — sprawdź, co się dzieje i zaimplementuj oczekiwanie/test.
+11. Podczas edycji wpisz dużo spacji na początku i końcu i Enter — sprawdź, że zapisane zadanie ma tekst bez zbędnych spacji (o ile aplikacja oczekuje trimowania).
+12. Dodaj kilka zadań (np. A, B, C), oznacz niektóre jako ukończone (np. B), a pozostaw inne nieukończone. Następnie kliknij filtr Active — sprawdź, że wyświetlane są tylko nieukończone zadania.
+13. Kliknij filtr Completed — sprawdź, że wyświetlane są tylko ukończone zadania.
+14. Kliknij filtr All — sprawdź, że widoczna jest lista wszystkich zadań (ukończone i nieukończone).
+15. Po oznaczeniu kilku jako ukończone, kliknij przycisk „Clear completed” (jeśli dostępny) i sprawdź, że wszystkie ukończone zadania zostały usunięte, a nieukończone pozostają.
+16. Usuń pojedyncze zadanie (np. przez najechanie myszką i kliknięcie przycisku „X” obok zadania) — sprawdź, że to zadanie znika z DOM i liczba zadań maleje.
+17. Usuń wszystkie zadania sekwencyjnie (dla każdego zadania kliknij “delete”) i sprawdź, że lista jest pusta (np. selector li nie zwraca żadnych elementów lub count() === 0).
+18. Dodaj 5 zadań, oznacz co drugi jako ukończone, użyj filtru Active, a potem kliknij Toggle All, sprawdź, że po tej akcji wszystkie zadania stały się ukończone (lub wróciły do stanu nieukończonego).
+19. Dodaj zadania, edytuj jedno z nich, oznacz je ukończone, użyj filtru Completed, a następnie użyj „Clear completed” i sprawdź, czy po powrocie do filtru All usunięte zadanie nie jest już widoczne.
+20. Dodaj zadanie o bardzo długim tekście (np. 200 znaków), oznacz je jako ukończone, przefiltruj je w Completed, usuń je, i sprawdź, że długość listy spada o 1.

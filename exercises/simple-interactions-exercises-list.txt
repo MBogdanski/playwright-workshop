@@ -1,0 +1,9 @@
+1. Wypełnij pole tekstowe "Name" i sprawdź, że wartość została ustawiona.
+2. Wypełnij pole tekstowe "Email" i sprawdź, że wartość została ustawiona.
+3. Zaznacz checkbox "Bike" i sprawdź, że jest widoczny oraz aktywny.
+4. Odznacz checkbox "Bike" i sprawdź, że nie jest zaznaczony.
+5. Kliknij pierwszy przycisk typu submit i sprawdź, że jest widoczny.
+6. Najedź kursorem na pierwszy link prowadzący do strony głównej i sprawdź, że jest widoczny.
+7. Ustaw focus na pole "Name" i sprawdź, że jest aktywne.
+8. Wpisz tekst do pola "Name" i naciśnij Enter, sprawdź, że wartość została ustawiona.
+9. Wybierz opcję "audi" z pierwszego selecta i sprawdź, że została wybrana.
