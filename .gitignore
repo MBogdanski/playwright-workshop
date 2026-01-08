@@ -145,3 +145,5 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+# Prettier config
+.prettierrc.json

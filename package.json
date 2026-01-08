@@ -1,0 +1,30 @@
+{
+  "name": "ts-learning",
+  "version": "1.0.0",
+  "description": "Test project for TS learning",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "tsc --noEmit --pretty --allowJs --strict"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "learning",
+    "exercises",
+    "theory"
+  ],
+  "author": "mbogdanski@sii.pl",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "playwright": "^1.57.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "prettier": "^3.2.4"
+  }
+}
